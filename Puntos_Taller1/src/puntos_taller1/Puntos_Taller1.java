@@ -12,7 +12,7 @@ public class Puntos_Taller1 {
      */
     public static void main(String[] args) {
         
-        System.out.println("LUISAA");
+        System.out.println("HOLA MUNDO");
         
     }
     
