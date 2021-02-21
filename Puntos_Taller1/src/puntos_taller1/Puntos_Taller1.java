@@ -1,22 +1,17 @@
 
 package puntos_taller1;
 
-/**
- *
- * @author Lulo
- */
+
 public class Puntos_Taller1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        float i = 1000f; 
-    while (i >= 1) {
-    System.out.println(i); 
-        i=i/2; }
+    private static Persona p1;
 
+
+    public static void main(String[] args) {
         
+        Persona p2= new Persona(); 
+        p2.setNombre("juan manuel");
+        System.out.println(p1.nombre);
     }
     
 }
