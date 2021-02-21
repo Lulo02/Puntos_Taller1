@@ -11,8 +11,11 @@ public class Puntos_Taller1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        System.out.println("HOLA MUNDO");
+        float i = 1000f; 
+    while (i >= 1) {
+    System.out.println(i); 
+        i=i/2; }
+
         
     }
     
