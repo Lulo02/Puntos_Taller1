@@ -5,11 +5,11 @@ package puntos_taller1;
 public class Persona {
     
     
-    private String nombre;
-    private String fecha;
-    private long codigo;       
-    private String genero;       
-    private String correo;               
+    protected String nombre;
+    protected String fecha;
+    protected long codigo;       
+    protected String genero;       
+    protected String correo;               
 
    
     public String getNombre(){
